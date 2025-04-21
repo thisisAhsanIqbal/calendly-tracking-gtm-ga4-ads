@@ -31,3 +31,31 @@ This guide shows how to:
   });
 </script>
 ```
+### 2. Create GTM Trigger
+
+- Trigger type: Custom Event
+- Event name: calendly
+- Trigger on: All Pages or specific pages
+
+### 3. Create GTM Tag (GA4 Event)
+- Tag type: GA4 Event
+- Event name: calendly_booking
+- Parameters: (optional)
+- Linked to the GA4 Config Tag
+- Fire on: Custom Event Trigger from above
+
+### 4. Mark as Conversion in GA4
+
+- Go to GA4 > Admin > Events
+- Mark calendly_booking as a conversion
+
+### 5. Import into Google Ads
+
+- GA4 > Tools > Conversions > Import from GA4
+
+#### 🧪 Debug Tips
+
+- Use GTM Preview Mode
+- Use GA4 Realtime DebugView
+- Use Chrome Console to log dataLayer pushes
+
