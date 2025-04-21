@@ -31,11 +31,15 @@ This guide shows how to:
   });
 </script>
 ```
+  <img src="https://github.com/thisisAhsanIqbal/calendly-tracking-gtm-ga4-ads/blob/main/Step%201.png?raw=true" alt="Step 1" width="800">
+  
 ### 2. Create GTM Trigger
 
 - Trigger type: Custom Event
 - Event name: calendly
 - Trigger on: All Pages or specific pages
+
+  <img src="https://github.com/thisisAhsanIqbal/calendly-tracking-gtm-ga4-ads/blob/main/Step%202.png?raw=true" alt="Step 2" width="800">
 
 ### 3. Create GTM Tag (GA4 Event)
 - Tag type: GA4 Event
@@ -43,6 +47,8 @@ This guide shows how to:
 - Parameters: (optional)
 - Linked to the GA4 Config Tag
 - Fire on: Custom Event Trigger from above
+
+  <img src="https://github.com/thisisAhsanIqbal/calendly-tracking-gtm-ga4-ads/blob/main/Step%203.png?raw=true" alt="Step 3" width="800">
 
 ### 4. Mark as Conversion in GA4
 
@@ -59,3 +65,11 @@ This guide shows how to:
 - Use GA4 Realtime DebugView
 - Use Chrome Console to log dataLayer pushes
 
+
+
+<h2 align="center">📄 Download Full PDF Guide</h2>
+<p align="center">
+  <a href="https://github.com/thisisAhsanIqbal/calendly-tracking-gtm-ga4-ads/blob/main/All%20Step.pdf">
+    <img src="https://img.shields.io/badge/Download%20PDF-Full%20Steps-blue?style=for-the-badge&logo=adobeacrobatreader" alt="Download PDF">
+  </a>
+</p>
